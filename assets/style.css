@@ -29,8 +29,6 @@ body {
     margin: 20px;
     text-align: center;
     border-radius: 20px;
-    /* EL BORDE SOLICITADO LO SAQUÉ PORQUE SE VEIA FEO PERO DEJO ABAJO EL CODIGO */
-    /* border: red solid 1px; */
 }
 
 .titulo {
