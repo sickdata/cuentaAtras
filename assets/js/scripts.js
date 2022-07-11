@@ -17,8 +17,10 @@ function mostrarFecha() {
 
 function cuentaAtras() {
     
-    const fechaObjetivo = new Date('01/01/2023 00:00');
     const ahora = new Date();
+    const anio = ahora.getFullYear();
+    const anioObjetivo = anio + 1;
+    const fechaObjetivo = new Date(`01/01/${anioObjetivo} 00:00`);
     const diferencia = fechaObjetivo - ahora;
     
     const milisecundos_por_segundo = 1000;
